@@ -10,7 +10,7 @@ class Program
         string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\Kuud.txt");
 
         // 2. Записываем 3 месяца в файл (перезаписываем каждый раз для чистоты примера)
-        using (StreamWriter sw = new StreamWriter(path))
+        using (StreamWriter sw = new StreamWriter(path, true))
         {
             sw.WriteLine("Jaanuar");
             sw.WriteLine("Veebruar");
