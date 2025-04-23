@@ -8,7 +8,7 @@ namespace _4osaFailitootlus.ulesanned
 {
     class FilmMain
     {
-        static void Main()
+        public static void Main()
         {
             // Создаём список фильмов
             List<Film> filmid = new List<Film>()

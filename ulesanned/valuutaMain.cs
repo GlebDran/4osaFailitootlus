@@ -8,7 +8,7 @@ namespace _4osaFailitootlus.ulesanned
 {
     class valuutaMain
     {
-        static void Main()
+        public static void Main()
         {
             // Создаём список валют
             List<Valuuta> valuutad = new List<Valuuta>()

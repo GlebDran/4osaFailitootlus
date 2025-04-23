@@ -6,7 +6,7 @@ namespace _4osaFailitootlus.ulesanned
 {
     class opilaneMain
     {
-        static void Main()
+        public static void Main()
         {
             // 1. Создаём учеников и их оценки
             List<opilane> klass = new List<opilane>()
