@@ -7,7 +7,7 @@ class Program
     static void Main()
     {
         // 1. Определяем путь к файлу Kuud.txt
-        string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Kuud.txt");
+        string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\Kuud.txt");
 
         // 2. Записываем 3 месяца в файл (перезаписываем каждый раз для чистоты примера)
         using (StreamWriter sw = new StreamWriter(path))
